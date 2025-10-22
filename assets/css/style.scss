@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.callout.tip {
+  background: #e6ffed;
+  border-left: 6px solid #34d058;
+  padding: 12px 14px;
+  margin: 16px 0;
+  border-radius: 8px;
+}
+.callout.tip strong {
+  color: #22863a;
+}
