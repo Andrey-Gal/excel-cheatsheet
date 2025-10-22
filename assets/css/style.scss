@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+/* ��� Зелёный совет */
 .callout.tip {
   background: #e6ffed;
   border-left: 6px solid #34d058;
@@ -12,4 +13,28 @@
 }
 .callout.tip strong {
   color: #22863a;
+}
+
+/* ⚠️ Важно */
+.callout.warn {
+  background: #fff5f5;
+  border-left: 6px solid #d73a49;
+  padding: 12px 14px;
+  margin: 16px 0;
+  border-radius: 8px;
+}
+.callout.warn strong {
+  color: #b31d28;
+}
+
+/* ��� Примечание */
+.callout.note {
+  background: #f1f8ff;
+  border-left: 6px solid #0366d6;
+  padding: 12px 14px;
+  margin: 16px 0;
+  border-radius: 8px;
+}
+.callout.note strong {
+  color: #005cc5;
 }
